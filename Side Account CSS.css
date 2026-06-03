@@ -1,0 +1,633 @@
+/* CSS Template by WAS #387866, you may edit or sell this template (premade or comms, idc) BUT you may NOT remove the Credit on the breadcrumb or this text unless your coding becomes unrecognizable from mine. If you have any Questions about this Template feel free to PM WAS on Lioden! :3 */
+
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display&display=swap'); 
+
+/* Background & Description Color */
+body {
+  background: url('https://i.ibb.co/pBXJ6bLj/level650sky-ezgif-com-resize.jpg') center center fixed !important;
+    font-family: 'Funnel Display';
+  color: #fff !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+  background-position: center !important;
+  -webkit-background-size: cover !important;
+  background-size: cover !important;
+}
+
+/* Lioden Logo Replacement */
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+  content: url("https://i.pinimg.com/originals/b0/4d/3a/b04d3a0946bbe86a2722ce7fc2f4f472.gif") !important;
+  width: 192px !important;
+    position: relative;
+    top: -25%;
+}
+
+/* Ignore */
+.col-md-9 {
+  background: transparent!important;
+  border-right: none
+}
+
+/* Width of the Scrollbar on the Right */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #737371 !important;
+  width: 15px !important;
+}
+
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #94908d;
+  border-radius: 0px !important;
+  width: 15px !important;
+}
+
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #94908d;
+  border-radius: 0px !important;
+}
+
+/* Container behind Everything */
+.container.main {
+  background: rgba(206, 192, 237,0.3) !important;
+  border: none;
+  border-radius: 0px;
+}
+
+/* Big Bar (Den, Crossroads, Hoard, etc) */
+.navbar {
+	background: rgba(49, 42, 64,0.8) !important;
+	border: none !important;		
+}
+
+/* Big Bar Text Stuff */
+.navbar li a {
+	color: #cec0ed !important;
+	font-size: 20px !important;
+	transition: 0.5s !important;
+}
+
+/* Big Bar on Hover */
+.navbar li a:hover, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle {
+  background: none !important;
+	color: #f9c2ff !important;
+	border-radius: 10px !important;
+    border: none !important;
+}
+
+
+/* Bar at the Top (Welcome back, ___) */
+.topbar {
+  background: rgba(49, 42, 64,0.8) !important;
+  color: #cec0ed !important;
+  border: none;
+}
+
+/* Comment Box */
+#commentBox {
+  background: rgba(49, 42, 64,0.5);
+  color: #cec0ed !important;
+  border: none !important;
+  border-radius: 3px !important;
+}
+
+/* "Post" Button under the Comment Box */
+#postComment {
+  background: #312a40 !important;
+}
+
+/* Small Bar below Navbar (Home / ___s Den) */
+.breadcrumb {
+  background: rgba(49, 42, 64,0.8) !important;
+  border: none;
+  color: #cec0ed !important;
+  border-radius: 4px !important;
+}
+
+
+/* Color of the ___s Den Text IN the breadcrumb */
+.breadcrumb .active {
+  color: #cec0ed !important;
+}
+
+/* Credits */
+.breadcrumb::after {
+  content: "Template by WAS #387866";
+  color: gold !important;
+  position: absolute;
+  right: 13%;
+  z-index: 100
+}
+
+/* Adjusting the Credits position for smaller Screens */
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+  .breadcrumb::after {
+    right: 20%
+  }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .breadcrumb::after {
+    right: 20%
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .breadcrumb::after {
+    right: 22%
+  }
+}
+
+
+/* Bookmark Button*/
+input.floatright,
+input.floatright:hover {
+  background: rgba(49, 42, 64,1) !important;
+  border: none !important;
+  border-radius: 0px !important;
+  color: #cec0ed !important;
+}
+
+
+/* Switch Account Button*/
+button.button,
+button.button:hover {
+  background: rgba(49, 42, 64,1) !important;
+  border: none !important;
+  border-radius: 3px !important;
+  text-shadow: none !important;
+  color: #cec0ed !important;
+}
+
+/* Warnings (Lions leaving soon, Hungry Lions, Not Nested,came back from Patrolling, finished Hunting) */
+.alert,
+.alert-warning,
+.alert-danger {
+  background: rgba(140, 108, 120,1) !important;
+  border: none !important;
+  color: #000 !important;
+  border-radius: 4px !important;
+}
+
+/*Header 1 ('___'s Den) */
+h1 {
+  color: #312a40 !important;
+  font-size: 43px !important;
+  text-align: center !important;
+}
+
+
+/* Small Header (King Dynasty, Pride Dynasty, Achievements, etc) */
+h3 {
+  color: #312a40 !important;
+}
+
+
+/* Red Notification Button when you get a New Message */
+.badge {
+  background: #8c6c78 !important;
+  color: #000 !important;
+  font-size: 11px;
+  text-align: center !important;
+  padding: 3px 7px 3px 5px !important;
+}
+
+
+/* Panels on the Right */
+.panel {
+background: rgba(49, 42, 64,0.5) !important;
+color: #cec0ed !important;
+box-shadow: none !important;
+border: none !important;
+border-radius: 4px !important;
+}
+
+
+/* Panel Headers */
+.sidebar h3 {
+  color: #312a40 !important;
+  font-size: 26px !important;
+  font-family: "Funnel Display", serif !important;
+}
+
+
+/* Even Numbered Messages */
+.s-chat-message:nth-child(even) {
+  background: rgba(97, 85, 115,1) !important;
+  color: #000 !important;
+  border: none !important
+}
+
+
+/* Odd Numbered Messages */
+.s-chat-message:nth-child(odd)  {
+  background: rgba(182, 171, 204,1) !important;
+  color: #000 !important;
+  border: none !important
+}
+
+
+/* Pinned Message */
+.s-chat-message__pinned {
+  background: rgba(195,194,190,0.3) !important;
+  color: #f0f0f0 !important;
+  border: none !important
+}
+
+
+/* Pings (@ messages) */
+#chatMessageList[data-pings="enabled"] .s-chat-message_mention {
+  background-color: rgba(194,187,182,0.4) !important;
+  border-left: none;
+}
+
+/* Timestamps */
+.s-chat-message_timestamp {
+  color: #f0f0f0 !important;
+}
+
+/* BG of Chatbox */
+html.nolayout body {
+background: none !important
+}
+
+/* Container BEHIND Edit your Details*/
+#accountoptionspanel .left,
+#changepasswordpanel .b,
+#editdetailspanel .b,
+#sparring,
+#allies .left,
+#editdetailspanel .right {
+  background: rgba(49,42,64,0.5) !important
+}
+
+
+/* Channel Button ie. Main, Sales */
+button#label_currentChannel {
+  background: rgba(148,144,141,0.3) !important;
+  color: #f0f0f0 !important;
+  border: none !important
+}
+
+
+/* King Image */
+#lion_image {
+  overflow: hidden;
+  border-radius: 0% !important;
+}
+
+
+/* Player Image */
+table#player img {
+  border-radius: 0% !important;
+}
+
+
+/* Color behind "Level, Stats, Branch, Territory" etc. */
+.inner-table .left {
+  background: rgba(49,42,64,0.8) !important;
+  color: #cec0ed !important;
+  border-radius: 0px !important;
+  border-top-left-radius: 5px 5px !important;
+  border-bottom-left-radius: 5px 5px !important;
+}
+
+
+/* Color behind the number of all of the things above */
+.inner-table .right {
+  background: rgba(49,42,64,0.5) !important;
+  color: #cec0ed !important;
+  border-radius: 0px !important;
+  border-top-right-radius: 5px 5px !important;
+  border-bottom-right-radius: 5px 5px !important;
+}
+
+
+/* Area BEHIND the Above Mentioned */
+td.right, #about .right > td {
+  background: rgba(49,42,64,0.5) !important;
+  color: #312a40 !important;
+  border-radius: 0px !important;
+}
+
+/* Kings Title */
+.xlarge.b {
+    color: #cec0ed !important; 
+}
+
+
+/* Ignore */
+.right_odd, #clans .left {
+  background: rgba(49,42,64,0.3) !important;
+    border: none !important;
+}
+
+
+/* Ignore */
+.table {
+  background: transparent !important;
+    border: none !important;
+}
+
+
+/* Affects the color behind "_ Unsorted", "_ Pregnant Lionesses", "View Pride Overview", and cave/mound names */
+.cave-grid,
+.mound-grid {
+  background: rgba(49,42,64,0.5) !important;
+  border: none !important;
+  border-radius: 3px !important;
+  color: #cec0ed !important;
+}
+
+
+/* Feed All, Play All */
+.feature {
+  background: rgba(49,42,64,0.4) !important;
+  color: #cec0ed !important;
+  border: none !important;
+  border-radius: 3px !important
+}
+
+/* Color behind King Dynasty, Pride Dynasty, etc */
+.feature,
+div.left {
+  background: rgba(49, 42, 64,0.5) !important;
+  border: none;
+  border-radius: 0px !important
+}
+
+
+/* Input Areas (Edit your Details, Comment etc) */
+input,
+select,
+textarea,
+select[disabled] {
+  background: rgba(49,42,64,0.3) !important;
+  border: none !important;
+  border-radius: 0px !important;
+  color: #cec0ed !important;
+  box-shadow: none !important;
+  text-shadow: none !important
+}
+
+
+/* Account options Panel  (Friend Requests Toggles, etc.) */
+.item-header {
+  background: rgba(148,144,141,0.3) !important;
+  color: #cec0ed !important;
+  border-radius: 0px !important;
+}
+
+/* Area BELOW the Above mentioned */
+.item {
+  background: rgba(195,194,190,0.1) !important;
+  border: none !important;
+  border-radius: 0px !important
+}
+
+
+/* Account Options on/off Toggle Switch */
+div.slider.round  {
+  background: #fff !important;
+}
+
+
+/* Circle Part */
+div.slider.round::before {
+  background: #dad9d7 !important
+}
+
+
+/* Link Color */
+a:link,
+a:visited {
+  color: #f9c2ff !important;
+  font-weight: normal;
+}
+
+
+/* Link Color on Hover */
+a:hover {
+  color: gold !important;
+}
+
+/* bar behind Lions with Mutation, Kings Name etc */
+.top,
+.bottom,
+th {
+  background: rgba(49, 42, 64,0.8) !important;
+  color: #cec0ed !important;
+  border-radius: 0px
+}
+
+
+/* Background of The 4 Bars in Panels (Energy, Hunger, EXP and Imp) */
+.progress {
+  background: rgba(206, 192, 237,1) !important;
+  border: none;
+  color: #f0f0f0 !important;
+  border-radius: 2px !important
+}
+
+/* Colored Part of the Above mentioned*/
+.progress-bar {
+  background: rgba(84, 70, 115,1) !important;
+  color: #f0f0f0 !important;
+  border-radius: 0px !important;
+}
+
+/* Color of the Above mentioned */
+.progress div {
+  color: #000 !important
+}
+
+
+div.cave-grid>img /* Pregnant Lionesses */ {
+	content: url('https://i.ibb.co/GQfbVLss/650mountain-1.jpg') !important
+}
+
+a[href$="lionoverview.php?id=196973"]>div.cave-grid>img /* Pride Overview */ {
+	content: url('https://i.ibb.co/GQfbVLss/650mountain-1.jpg') !important
+}
+
+/* Unsorted */
+a[href$="unsorted.php?id=196973"]>div.cave-grid>img /* Unsorted */ {
+	content: url('https://i.ibb.co/GQfbVLss/650mountain-1.jpg') !important
+}
+
+/* Caves */
+a[href$="145774"]>div.cave-grid>img {
+	content: url('https://i.ibb.co/GQfbVLss/650mountain-1.jpg') !important
+}
+a[href$="353797"]>div.cave-grid>img {
+	content: url('https://i.ibb.co/GQfbVLss/650mountain-1.jpg') !important
+}
+a[href$="162715"]>div.cave-grid>img {
+	content: url('https://i.ibb.co/GQfbVLss/650mountain-1.jpg') !important
+}
+a[href$="353797"]>div.cave-grid>img {
+	content: url('https://i.ibb.co/GQfbVLss/650mountain-1.jpg') !important
+}
+a[href$="138938"]>div.cave-grid>img {
+	content: url('https://i.ibb.co/GQfbVLss/650mountain-1.jpg') !important
+}
+a[href$="166584"]>div.cave-grid>img {
+	content: url('https://i.ibb.co/GQfbVLss/650mountain-1.jpg') !important
+}
+a[href$="190877"]>div.cave-grid>img {
+	content: url('https://i.ibb.co/GQfbVLss/650mountain-1.jpg') !important
+}
+a[href$="187138"]>div.cave-grid>img {
+	content: url('https://i.ibb.co/GQfbVLss/650mountain-1.jpg') !important
+}
+
+
+/* Mounds */
+.mound-grid img /* Mound(s) */ {
+	background: url("https://i.ibb.co/GQfbVLss/650mountain-1.jpgBg-ezgif-com-resize.jpg");
+	width: 0;
+	height: 0;
+	padding-top: 80px;
+	padding-right: 130px
+}
+
+
+/* SB Icon */
+img[src$="silver.png"] {
+  content: url('https://i.imgur.com/248oA1g.png') !important;
+  width: 20px !important;
+}
+
+/* GB Icon */
+img[src$="gold.png"] {
+  content: url('https://i.imgur.com/JuepnJA.png') !important;
+  width: 20px !important;
+}
+
+
+/* Copyright, Terms of Service, CoC, etc. */
+div.container.footer.center.white.visible-lg.visible-md.visible-sm,
+div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
+  color: #f0f0f0 !important;
+  text-shadow: none !important
+}
+
+/* tables */
+        .table {
+            background: none;
+            color: #000d1a !important;
+            border: none !important;
+            border-collapse: separate;
+            border-radius: 5px;
+            box-shadow: none !important;
+        }
+
+
+
+
+/* CUSTOM LAYOUTS (CODE MADE BY #139 ON LIODEN) */
+    .pun-credit {
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+        color: #f6e4dc !important;
+        font-size: 10px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        text-align: center;
+        background: rgba(196,220,148,0.8);
+        padding: 5px;
+    }
+    .pun-credit a {
+        color: #f6e4dc !important;
+    }
+    .pun-credit a:hover {
+        opacity: 1 !important;
+    }
+    .pun-credit:hover {
+        opacity: 1;
+        transition: 2s;
+    }
+    .pun-table {
+        width: 640px;
+        background: url('http://web.archive.org/web/20230414235911im_/https://i.imgur.com/uzAr2eK.png');
+    }
+    .pun-spacer {
+        background: none;
+        width: 320px;
+    }
+    .pun-content {
+        background: rgba(49, 42, 64,0.3) !important;
+        color: #cec0ed;
+        text-align: justify;
+        height: 400px;
+        overflow: auto;
+        width: 100;
+        padding: 20px;
+        border-radius: 4px;
+        font-size: 12px;
+    }
+    .pun-content a {
+        color: #f9c2ff !important;
+        font-weight: normal !important;
+        opacity: 1;
+    }
+    .pun-content a:hover {
+        opacity: 1 !important;
+    }
+    .pun-links {
+        background: rgba(49, 42, 64,1) !important;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 11px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .pun-links a {
+        color: #f9c2ff !important;
+    }
+    .pun-graphics {
+        background: rgba(30,118,39,0.7) !important;
+        color: #303139;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .pun-graphics a {
+        color: #94c69c !important;
+    }
+
+
+ /*lastly, this part makes the CSS Mobile friendly*/
+@media only screen and (max-width: 767px) {
+  .container.main .hidden-xs {
+    display: block !important;
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  .container.main .hidden-xs {
+    display: block !important;
+  }
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  display: block !important;
+}
+
+
+@media only screen and (min-width: 1200px) {
+  div.quote {
+    width: 790px;
+  }
