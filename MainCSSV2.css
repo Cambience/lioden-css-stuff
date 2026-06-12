@@ -2,14 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap');
 
 /*Background*/
-@media (min-width: 220px) {
 body {
-background-color: black;
-background: url("https://i.ibb.co/XxQbrRW6/941898-ezgif-com-resize.jpg'") center center fixed !important;
-background-size: cover !important;
-font-family: 'Inter';
-background-repeat: no-repeat;
-color: black;
+  background: url('https://i.ibb.co/XxQbrRW6/941898-ezgif-com-resize.jpg') center center fixed !important;
+    font-family: 'Inter';
+  color: #fff !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+  background-position: center !important;
+  -webkit-background-size: cover !important;
+  background-size: cover !important;
 }
 
 /*Unsorted Lions*/
@@ -236,14 +237,14 @@ h3 {
 
 /* CHAT */
 .s-chat-message:nth-child(even) /* Even Numbered Messages */ {
-	background: rgba(65, 124, 242, 0.9) !important;
+	background: rgba(65, 124, 242, 0.6) !important;
         color: #000000 !important;
 	border: none !important
 }
 
 
 .s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
-	background: rgba(154, 195, 241, 0.9) !important;
+	background: rgba(154, 195, 241, 0.6) !important;
         color: #000000 !important;
 	border: none !important
 }
@@ -267,7 +268,7 @@ div#chatMessageContainer {
 
 
 button#label_currentChannel /* Channel Button ie. Main, Sales */ {
-	background: rgba(67, 89, 21, 0.5) !important;
+	background: rgba(67, 89, 21, 0.9) !important;
         color: #000000 !important;
 	border: none !important
 }
