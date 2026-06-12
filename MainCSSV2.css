@@ -459,7 +459,7 @@ a:hover {
         width: 320px;
     }
     .pun-content {
-        background: rgba(67, 89, 21, 0.3) !important;
+        background: none !important;
         color: black;
         text-align: justify;
         height: 400px;
