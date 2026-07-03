@@ -6,7 +6,8 @@
 
 body {
 	background: url('https://i.ibb.co/XxQbrRW6/941898-ezgif-com-resize.jpg') center center fixed !important;
-	background-size: 100%;
+	background-size: cover !important;
+	background-repeat: no-repeat;
 	font-family: 'Inter';
 	color: #000
 }
