@@ -1,3 +1,11 @@
+/*
+Free to use CSS template by Katie (#106445).
+This code may be altered, edited, or re-uploaded. 
+This template may be used to create paid codes (pre-mades and commissions).
+Please do NOT remove this credit, unless your coding becomes unrecognizable from this one! 
+*/
+
+
 /* FONT (From Google Fonts) */
 
 
@@ -860,3 +868,10 @@ border: 1px solid #78699f;}
 /* MAKE DYNASTY/ACHIEVEMENT/ETC. ONE ROW */
 div.col-md-3.col-sm-6.col-xs-6.mb-2.dynastylist {
 width: 20%;}
+
+h1 small {
+  font-weight: 400;
+  line-height: 1;
+  color: #000;
+}
+}
