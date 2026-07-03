@@ -868,29 +868,3 @@ border: 1px solid #78699f;}
 /* MAKE DYNASTY/ACHIEVEMENT/ETC. ONE ROW */
 div.col-md-3.col-sm-6.col-xs-6.mb-2.dynastylist {
 width: 20%;}
-
-
-/* mobile background - fixed image stretching code by tawnycollar #251887 */
-@media screen and (max-width: 768px){
-body {
-background: url("https://i.ibb.co/XxQbrRW6/941898-ezgif-com-resize.jpg") no-repeat center center fixed;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-}
-html:not(.nolayout) body:after {
-content:"";
-position:fixed; 
-top:0;
-height:160vh;
-left:0;
-right:0;
-z-index:-1; 
-background: url("https://i.ibb.co/XxQbrRW6/941898-ezgif-com-resize.jpg") center center;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-}
-}
