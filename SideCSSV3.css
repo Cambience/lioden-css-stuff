@@ -8,7 +8,7 @@
 
 
 body {
-	background: url('https://i.ibb.co/pBXJ6bLj/level650sky-ezgif-com-resize.jpg') center center fixed !important;
+	background: url('https://i.postimg.cc/zXbTByh4/side-acc-css-background.jpg') center center fixed !important;
 	background-size: cover !important;
 	background-repeat: no-repeat;
 	font-family: 'Funnel Display';
@@ -600,7 +600,7 @@ a:hover {
     }
     .pun-table {
         width: 640px;
-        background: url('https://i.ibb.co/vxj57jdt/output-onlinepngtools.png');
+        background: url('https://i.postimg.cc/FF0N3RQ3/side-acc-pun-box-background.png');
     }
     .pun-spacer {
         background: none;
@@ -749,25 +749,25 @@ table#player img {
 
 /*Unsorted Lions*/
 img[src$="unsortedlionsbanner.png"] {
-content: url('https://i.ibb.co/GQfbVLss/650mountain-1.jpg')!important;
+content: url('https://i.postimg.cc/HnCjkLCd/650mountain.jpg')!important;
 }
 
 /*Nesting*/
 img[src$="nestingbanner.png"] {
-content: url('https://i.ibb.co/GQfbVLss/650mountain-1.jpg')!important;
+content: url('https://i.postimg.cc/HnCjkLCd/650mountain.jpg')!important;
 }
 
 /*Overview*/
 img[src$="overviewbanner.png"] {
-content: url('https://i.ibb.co/GQfbVLss/650mountain-1.jpg')!important;
+content: url('https://i.postimg.cc/HnCjkLCd/650mountain.jpg')!important;
 }
 
 img[src$="//static.lioden.com/images/layout/cavedefault.jpg"] {
-    content: url('https://i.ibb.co/GQfbVLss/650mountain-1.jpg') !important
+    content: url('https://i.postimg.cc/HnCjkLCd/650mountain.jpg') !important
 }
 
 img[src$="caveunused.jpg"] {
-content: url("https://i.ibb.co/gLs4b7hJ/650mountain-Greyscale.png") !important;
+content: url("https://i.postimg.cc/7Yc94xfd/650mountain-greyscale.png") !important;
 }
 
 img[src$="beetlemound.png"] {
